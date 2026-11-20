@@ -1,4 +1,4 @@
-# Regional Income Analysis (RIA)
+# Sistem Analisis Disparitas Pendapatan Daerah (SIDISPA)
 
 Aplikasi Streamlit untuk mengolah data PDRB per kapita dan jumlah penduduk serta
 menganalisis disparitas pendapatan antarwilayah dengan Indeks Williamson.

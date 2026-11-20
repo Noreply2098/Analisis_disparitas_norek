@@ -1,4 +1,4 @@
-"""Regional Income Analysis (RIA) — entry point aplikasi Streamlit.
+"""Sistem Analisis Disparitas Pendapatan Daerah (SIDISPA) — entry point aplikasi Streamlit.
 
 Jalankan dengan:  streamlit run app.py
 """
@@ -44,7 +44,7 @@ import tema  # noqa: E402
 from sqlalchemy.exc import SQLAlchemyError  # noqa: E402
 
 st.set_page_config(
-    page_title="Regional Income Analysis",
+    page_title="Sistem Analisis Disparitas Pendapatan Daerah",
     page_icon="📊",
     layout="wide",
 )
@@ -93,7 +93,7 @@ def tampilkan_galat_db(exc: Exception) -> None:
 
     Detail teknis hanya ditampilkan di layar bila secret DEBUG_DB = "true"."""
     detail = db.samarkan(f"{type(exc).__name__}: {exc}")
-    print(f"[RIA] Galat database: {detail}", file=sys.stderr, flush=True)
+    print(f"[SIDISPA] Galat database: {detail}", file=sys.stderr, flush=True)
     st.error(PESAN_DB)
     st.info("**Petunjuk untuk pemilik aplikasi:** " + db.petunjuk_galat(exc), icon=":material/build:")
     if str(db.config("DEBUG_DB", "")).strip().lower() in ("1", "true", "ya", "yes"):

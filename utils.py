@@ -1,4 +1,4 @@
-"""Fungsi bersama aplikasi RIA: konfigurasi, tampilan, validasi, dataset, dan Indeks Williamson."""
+"""Fungsi bersama aplikasi SIDISPA: konfigurasi, tampilan, validasi, dataset, dan Indeks Williamson."""
 
 import io
 import json
@@ -1673,7 +1673,7 @@ def ringkasan_ekspor(
 
     baris = [
         ("Judul", judul),
-        ("Aplikasi", "Regional Income Analysis (RIA)"),
+        ("Aplikasi", "Sistem Analisis Disparitas Pendapatan Daerah (SIDISPA)"),
         ("Tanggal ekspor", datetime.now().strftime("%d-%m-%Y %H:%M")),
         ("Cakupan unduhan", "Data sesuai filter" if aktif else "Seluruh dataset aktif"),
         ("Filter tahun", (f"{f.tahun_awal}–{f.tahun_akhir}" if f is not None and f.tahun_awal is not None else "semua")),

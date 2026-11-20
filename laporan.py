@@ -47,7 +47,7 @@ from charts import (
     grafik_tren,
 )
 
-NAMA_APLIKASI = "Regional Income Analysis (RIA)"
+NAMA_APLIKASI = "Sistem Analisis Disparitas Pendapatan Daerah (SIDISPA)"
 PENGEMBANG = "Kelompok 2"
 
 # ==============================

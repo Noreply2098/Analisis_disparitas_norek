@@ -25,7 +25,7 @@ log = logging.getLogger("ria.mailer")
 # Untuk pengujian: True = kirim langsung (tanpa thread) agar hasilnya bisa diperiksa.
 SINKRON = False
 
-JUDUL_APLIKASI = "Regional Income Analysis"
+JUDUL_APLIKASI = "Sistem Analisis Disparitas Pendapatan Daerah"
 
 
 def konfigurasi() -> dict | None:
