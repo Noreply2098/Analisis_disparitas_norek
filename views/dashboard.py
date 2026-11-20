@@ -10,7 +10,7 @@ from utils import (
 )
 
 page_header(
-    "Dashboard Regional Income Analysis",
+    "Dashboard SIDISPA",
     "Sistem otomatisasi pengolahan data dan analisis disparitas "
     "pendapatan regional berbasis Python.",
 )
@@ -68,7 +68,7 @@ with st.container(border=True):
 with st.container(border=True):
     st.subheader("Informasi Penelitian")
     st.write(
-        "Aplikasi Regional Income Analysis (RIA) digunakan untuk membantu "
+        "Aplikasi Sistem Analisis Disparitas Pendapatan Daerah (SIDISPA) digunakan untuk membantu "
         "proses pengolahan data PDRB per kapita dan jumlah penduduk serta "
         "analisis disparitas antarwilayah menggunakan metode Indeks Williamson."
     )

@@ -6,7 +6,7 @@ _, tengah, _ = st.columns([1, 2, 1])
 
 with tengah:
     st.title("Masuk")
-    st.caption("Masuk untuk mengakses Regional Income Analysis.")
+    st.caption("Masuk untuk mengakses Sistem Analisis Disparitas Pendapatan Daerah (SIDISPA).")
 
     with st.container(border=True):
         with st.form("form_login"):

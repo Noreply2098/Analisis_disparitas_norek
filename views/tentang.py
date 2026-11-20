@@ -6,7 +6,7 @@ from utils import (
 )
 
 page_header(
-    "Tentang Regional Income Analysis",
+    "Tentang SIDISPA",
     "Sistem otomatisasi pengolahan data dan analisis disparitas "
     "pendapatan regional berbasis Python.",
 )
@@ -15,7 +15,7 @@ page_header(
 with st.container(border=True):
     st.subheader("Profil Aplikasi")
     st.write(
-        "Regional Income Analysis (RIA) merupakan aplikasi berbasis web yang "
+        "Sistem Analisis Disparitas Pendapatan Daerah (SIDISPA) merupakan aplikasi berbasis web yang "
         "dikembangkan untuk membantu proses pengolahan data ekonomi regional "
         "dan menganalisis tingkat ketimpangan pendapatan antarwilayah."
     )
@@ -143,7 +143,7 @@ with st.container(border=True):
 with st.container(border=True):
     st.subheader("Informasi Pengembangan")
     st.markdown(
-        "**Nama Aplikasi:** Regional Income Analysis (RIA)  \n"
+        "**Nama Aplikasi:** Sistem Analisis Disparitas Pendapatan Daerah (SIDISPA)  \n"
         "**Versi:** 1.0  \n"
         "**Dikembangkan oleh:** Kelompok 2  \n"
         "**Lisensi dan Hak Cipta:** Informasi perlindungan program komputer "

@@ -6,7 +6,7 @@ _, tengah, _ = st.columns([1, 2, 1])
 
 with tengah:
     st.title("Daftar Akun")
-    st.caption("Buat akun baru untuk menggunakan Regional Income Analysis.")
+    st.caption("Buat akun baru untuk menggunakan Sistem Analisis Disparitas Pendapatan Daerah (SIDISPA).")
 
     if st.session_state.pop("_reg_sukses", False):
         st.success("Akun berhasil dibuat. Silakan masuk dengan username dan password Anda.")
